@@ -1,26 +1,15 @@
 {
-	"name" : "2x3knob",
+	"name" : "fiboardknob",
 	"vendorId": "0xF1CA",
 	"productId": "0xF1B1",
-	"lighting" : "none",
 	"matrix": {
 		"rows": 2, 
 		"cols": 3
 	},
 	"layouts": {
 		"keymap": [
-			[
-				{"fa":[1]},
-				"0,0",
-				"0,1",
-				"0,2"
-			],
-			[
-				"1,0",
-				"1,1",
-				"1,2"
-			],
-			[{"x":1,"a":6,"f":3},"e0"]
+			["0,0","0,1","\n\n\n\n\n\n\n\n\ne0"],
+			["1,0","1,1","1,2"]
 		]
 	}
 }
