@@ -8,24 +8,4 @@
 
 /* USB Device descriptor parameter */
 #define VENDOR_ID 0xF1CA 
-#define PRODUCT_ID 0xF1B1
-//#define DEVICE_VER 0x0001
-//#define MANUFACTURER "Ficarlo"
-//#define PRODUCT "fiboard"
-
-
-/*
- * Feature disable options
- *  These options are also useful to firmware size reduction.
- */
-
-/* disable debug print */
-//#define NO_DEBUG
-
-/* disable print */
-//#define NO_PRINT
-
-/* disable action features */
-//#define NO_ACTION_LAYER
-//#define NO_ACTION_TAPPING
-//#define NO_ACTION_ONESHOT
+#define PRODUCT_ID 0xF1B4
