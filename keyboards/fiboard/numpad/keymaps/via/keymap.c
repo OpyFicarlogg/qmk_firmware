@@ -19,7 +19,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     * https://docs.qmk.fm/#/keycodes
     */
     [0] = LAYOUT_6x4(
-        KC_PSCR,    LT(1, KC_DEL),     KC_END,     KC_INS, 
+        KC_PSCR,    LT(3, KC_DEL),     KC_END,     KC_INS, 
         KC_NUM,     KC_PSLS,    KC_PAST,    KC_PMNS,
         KC_P7,      KC_P8,      KC_P9,      KC_PPLS,
         KC_P4,      KC_P5,      KC_P6, 
@@ -27,25 +27,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                     KC_P0,      KC_PDOT,    KC_PENT
     ),
 
-    
-    /* Keymap _FL: Function Layer
-    * .-------------------.
-    * |____|____|____|____|
-    * .-------------------.
-    * |____|____|____|____|
-    * |-------------------|
-    * |____|____|____|____|
-    * |--------------|    |
-    * |____|____|____|____|
-    * |-------------------|
-    * |____|____|____|    |
-    * |--------------|    |
-    * |     ____|____|____|
-    * '-------------------'
-    */
-
     [1] = LAYOUT_6x4(
-        QK_REBOOT,  KC_DEL,     QK_BOOT,     EE_CLR, 
+        KC_PSCR,    KC_DEL,     KC_END,     KC_INS, 
         KC_NUM,     KC_PSLS,    KC_PAST,    KC_PMNS,
         KC_P7,      KC_P8,      KC_P9,      KC_PPLS,
         KC_P4,      KC_P5,      KC_P6, 
@@ -62,8 +45,23 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                     KC_P0,      KC_PDOT,    KC_PENT
     ),
 
+    /* Keymap _FL: Function Layer
+    * .-------------------.
+    * |____|____|____|____|
+    * .-------------------.
+    * |____|____|____|____|
+    * |-------------------|
+    * |____|____|____|____|
+    * |--------------|    |
+    * |____|____|____|____|
+    * |-------------------|
+    * |____|____|____|    |
+    * |--------------|    |
+    * |     ____|____|____|
+    * '-------------------'
+    */
     [3] = LAYOUT_6x4(
-        KC_PSCR,    KC_DEL,     KC_END,     KC_INS, 
+        QK_REBOOT,  KC_DEL,     QK_BOOT,     EE_CLR, 
         KC_NUM,     KC_PSLS,    KC_PAST,    KC_PMNS,
         KC_P7,      KC_P8,      KC_P9,      KC_PPLS,
         KC_P4,      KC_P5,      KC_P6, 
